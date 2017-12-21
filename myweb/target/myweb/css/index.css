@@ -1,0 +1,7 @@
+.bg-main{
+    background:url(/images/bg.jpg);
+    background-size:100% 100%;
+    -moz-background-size:35% 100%; /* 老版本的 Firefox */
+    background-repeat:no-repeat;
+
+}

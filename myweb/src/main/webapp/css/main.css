@@ -1,0 +1,89 @@
+/*body背景图片*/
+.body {
+    /*此部分支持chrome，应该也支持firefox*/
+    background: url("../images/bg.jpg") no-repeat center fixed;
+    background-attachment: fixed;
+    background-size: auto 100%;
+    /*以下是IE部分，使用滤镜*/
+    /*filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/styles/images/bg.jpg',sizingMethod='scale');*/
+    background-repeat: no-repeat;
+    background-positon: 100%, 100%;
+    /*font: normal 12px tahoma, arial, verdana, sans-serif;*/
+    margin: 0;
+    padding: 0;
+    border: 0 none;
+    overflow: hidden;
+    height: auto;
+}
+
+.head-bg {
+    width: 100%;
+    height: 54px;
+    background: #24292e;
+    position:relative;
+}
+
+/*悬浮效果*/
+.clearfloat:after {
+    display: block;
+    clear: both;
+    content: "";
+    visibility: hidden;
+    height: 0;
+}
+
+.clearfloat {
+    zoom: 1; /*兼容IE6、IE7清除浮动*/
+}
+
+/*item css*/
+.div-right{
+    margin-right: 50px;
+    margin-top: 10px;
+    float: right;
+}
+
+.div-float{
+    margin-left: 50px;
+    height: auto;
+    float: left;
+}
+
+.image{
+    height: 34px;
+    width: 34px;
+    text-align: center;
+    margin: auto;
+    float: right;
+}
+
+
+.color-head{
+    text-align: center;
+    color: white;
+    font-size: 26px;
+    margin-top: 10px;
+}
+
+.input_box{
+    padding-bottom:15px;
+    margin:0 auto;
+    overflow:hidden;
+    float: right;
+}
+
+.input_box button{
+    width:50px;
+    height:34px;
+    margin-right: 10px;
+    background:#008386;
+    border:none;
+    border-radius:5px;
+    outline:none;
+    cursor:pointer;
+    font-size:16px;
+    color:#FFF;
+}
+
+
+

@@ -1,0 +1,55 @@
+/*-表格线条-*/
+.tableGrid { margin-bottom:5px; }
+
+/*-单元格-*/
+.tableGrid { border-width:0 1px 1px 1px;border-style:solid;border-color:#acd3d2; }
+.tableGrid td { padding:4px 2px;background-color:#ecfeff;border:none; }
+
+/*-GRID中的按钮设置（普通）-*/
+.tableGrid .button { height:22px;background-image: url(../images/logo.jpg);border: 1px solid #008b8b;color:#fff;line-height:18px; }
+
+/*-GRID中的按钮设置（小）-*/
+.tableGrid .buttonSmall { height:22px;background-image: url(../images/logo.jpg);border: 1px solid #008b8b;color:#fff;line-height:18px; }
+
+/*-表单输入框-*/
+.tableGrid input { height:24px;_height:22px;margin:0;padding:0;border:1px solid #d2d2d2;line-height:22px; }
+
+/*-表单下拉菜单-*/
+.tableGrid select { border:1px solid #d2d2d2;height:24px;_height:22px;font-size:13px; }
+
+/*-表单文字框-*/
+.tableGrid textarea { border:1px solid #d2d2d2;word-break:break-all; }
+
+/*-按钮设置（普通）-*/
+.buttonBg .button,.sort-table .button { height:22px;background-image: url(../images/logo.jpg);border: 1px solid #008b8b;color:#fff; }
+
+/*-按钮设置（小）-*/
+.buttonBg .buttonSmall,.sort-table .buttonSmall { height:22px;background-image: url(../images/logo.jpg);border: 1px solid #008b8b;color:#fff; }
+
+/*-标签页背景-*/
+.labelBg { height:31px;background:url(../images/logo.jpg) repeat-x;border-left:1px solid #1db2af;border-right:1px solid #1db2af; }
+
+/*-标签页当前页背景-*/
+.labelLeftOn { height:31px;background:none; }
+.labelRightOn { height:31px;background:none; }
+.labelMidOn { height:31px;background:none;color:#fff;line-height:31px;font-weight:bold; }
+
+/* dxgrid */
+td.dxHeader table td { background:url(../images/logo.jpg) repeat bottom;border:none;color:#000; }
+table.dxContainer, .dxgrid-sub { border-color:#1db2af;border-width:0 1px 1px 1px; }
+.active{ border-color:#1db2af !important; }
+table.dxContainer td td, table.dxSubTable td { padding: 6px 5px; }
+.dxgrid tr.selected td { background-color:#ecfeff;border-width: 0 0 1px 0; !important;border-width:0 0 1px 0; }
+.dxgrid tr.evenrow td { background-color: #ecfeff;border-width:0 0 1px 0; }
+.dxgrid tr.oddrow td { background-color: #fff;border-width:0 0 1px 0; }
+.export-toolbar { background-color: #ecfeff;border-color:#1db2af; }
+.page-toolbar { background-color: #ecfeff;border-color:#1db2af; }
+
+.sort-table th { padding:4px 2px;border:none;background:url(../images/logo.jpg) repeat bottom; }
+.sort-table td { padding:4px 2px;border:none; }
+.sort_table_even {
+    background-color: #ecfeff;border-width:0 0 1px 0;
+}
+.sort_table_odd {
+    background-color: #fff;border-width:0 0 1px 0;
+}
